@@ -13,11 +13,7 @@ end
 
 cathetus1, cathetus2, hypotenuse = [a, b, c].sort!
 
-rectangle_triangle = if hypotenuse**2 == cathetus1**2 + cathetus2**2
-                       true
-                     else
-                       false
-                     end
+rectangle_triangle = hypotenuse**2 == cathetus1**2 + cathetus2**2
 
 if rectangle_triangle && cathetus1 == cathetus2
   puts 'Треугольник является прямоугольныи и равнобедренным'
