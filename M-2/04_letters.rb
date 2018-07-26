@@ -1,4 +1,4 @@
-letters = %w(a e i o u y)
+letters = %w[a e i o u y]
 
 dictionary = {}
 
